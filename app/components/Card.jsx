@@ -1,21 +1,24 @@
-import React from 'react'
-import Image from 'next/image'
-import CardImage from '../../public/CardImage.svg'
-const card = () => {
+import React from 'react';
+import Image from 'next/image';
+import CardImage from '../../public/CardImage.svg';
+
+const Card = () => {
   return (
-    
-
-<div classNameName="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex flex-col">
-    <div>
-        NEWS-JAN 1, 2023
+    <div className="flex flex-col bg-white border border-gray-300  text-cobalt-blue">
+        <div className='px-8 pt-8'>
+        <div className="text-sm  mb-3">NEWS - JAN 1, 2023</div>
+      <div className="text-base font-medium mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+      <div className="line-clamp-5 text-xs max-w-md mb-3">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla erat nisi, lobortis eu eros at, egestas
+        sollicitudin ipsum. Orci varius natoque penatibus et magnis dis parturient…
+      </div>
+        </div>
+     
+      <div>
+        <Image src={CardImage} width={652} height={170} />
+      </div>
     </div>
-   
-        <Image className="rounded-t-lg" src={CardImage} width={152} height={70} />
- 
-   
-</div>
+  );
+};
 
-  )
-}
-
-export default card
+export default Card;

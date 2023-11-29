@@ -4,15 +4,24 @@ import Card from './Card.jsx'
 const News = () => {
   return (
     <>
-    <div className='flex w-full justify-between px-24 py-24 bg-[#F2F2F2] min-h-screen text-cobalt-blue'>
-    <div className='font-regular text-3xl'>
+    <div className='flex flex-col bg-[#F2F2F2] px-24 py-24 min-h-screen gap-10'>
+    <div className='flex w-full justify-between  text-cobalt-blue'>
+    <span className='font-regular text-3xl'>
       Latest News and Events
-    </div>
-    <div>
+    </span>
+    <span>
       See all news and events
+    </span>
+   
     </div>
+    <div className='flex gap-8'>
+    <Card />
+    <Card />
     <Card />
     </div>
+    
+    </div>
+   
    
    
     </>
