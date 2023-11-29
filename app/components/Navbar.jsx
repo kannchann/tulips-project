@@ -10,8 +10,8 @@ import Search from "../../public/Search.svg";
 const Navbar = () => {
   return (
     <nav className=" w-full  shadow-xl bg-[#303642] ">
-      <div className="flex justify-between items-center w-full sm:px-52 sm:py-9">
-        <div style={{width:'full',height:'auto'}}>
+      <div className="flex justify-between items-center w-full px-24 relative z-30  py-5 sm:py-9">
+       
           <Link href="/">
             <Image
               src={Logo}
@@ -22,10 +22,10 @@ const Navbar = () => {
               priority
             />
           </Link>
-        </div>
+    
 
         <div>
-          <ul className=" hidden md:flex items-center">
+          <ul className=" hidden lg:flex items-center">
             <li className="ml-10 uppercase hover:border-b text-neutral-100 font-normal  text-xs tracking-{0.15}">
               Who we are
             </li>
