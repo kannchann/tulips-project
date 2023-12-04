@@ -13,8 +13,8 @@ const Footer = () => {
         </div>
         {/* <!-- text --> */}
    
-        <p className="w-4/6 text-sm font-extralight">Since its establishment in 2004, Brand has been leading the global market in digital dentistry by proposing a new standard for dental imaging solutions through state-of-the-art technology.</p>
-        <p className="w-4/6 text-sm font-extralight">Brand will continuously grow to provide better products and services through outstanding technology and experience.</p>
+        <p className="w-4/6 text-xs md:text-sm hidden sm:block font-extralight">Since its establishment in 2004, Brand has been leading the global market in digital dentistry by proposing a new standard for dental imaging solutions through state-of-the-art technology.</p>
+        <p className="w-4/6 text-xs md:text-sm hidden sm:block font-extralight">Brand will continuously grow to provide better products and services through outstanding technology and experience.</p>
    
         {/* <!-- icon --> */}
         <div className="flex gap-2">
@@ -91,6 +91,7 @@ const Footer = () => {
         <div>
           <span className="font-light">Who we are</span>
         </div>
+        <div className='hidden sm:block'>
         <div className="font-extralight">Company Overview</div>
         <div className="font-extralight">Philosophy & Culture</div>
         <div className="font-extralight">Our People & Leadership</div>
@@ -100,12 +101,14 @@ const Footer = () => {
         <div className="font-extralight">Global Presence</div>
         <div className="font-extralight">Global Presence</div>
       </div>
+      </div>
 {/*    
       <!-- Our Dental Solutions? --> */}
       <div className="flex basis-1/4 flex-col gap-2">
         <div>
           <span className="font-light">Our Dental Solutions</span>
         </div>
+        <div className='hidden sm:block'>
         <div className="font-extralight">BrandFace</div>
         <div className="font-extralight">BrandPremiere</div>
         <div className="font-extralight">BrandScan Studio</div>
@@ -119,15 +122,17 @@ const Footer = () => {
         <div className="font-extralight">Brand Mill</div>
         <div className="font-extralight">Branddent Studio</div>
         <div className="font-extralight">Brand Smiler</div>
-      </div>
+        </div>
+        </div>
+   
 {/*    
       <!-- Why Brand Is Different ? --> */}
       <div className="flex basis-1/4 flex-col gap-2">
         <div>
           <span className="font-light">Why Brand Is Different</span>
         </div>
-  
-        <div className="font-extralight">Face Driven Dentistry</div>
+  <div className='hidden sm:block'>
+  <div className="font-extralight">Face Driven Dentistry</div>
         <div className="font-extralight">Smile Nation</div>
         <div className="font-extralight">Clinical Cases</div>
         <div className="font-extralight">Industry Insights</div>
@@ -136,10 +141,13 @@ const Footer = () => {
         <div className="font-extralight">Ethical Management</div>
         <div className="font-extralight">Research & Development</div>
         <div className="font-extralight">Product Quality & Safety</div>
+  </div>
+  </div>
+     
           
 
       
-      </div>
+ 
     </div>
    
     {/* <!-- section. 2 --> */}
@@ -148,7 +156,7 @@ const Footer = () => {
         <span className="font-extralight"> © Brand Co., Ltd. 2023, All rights reserved. </span>
       </div>
    
-      <div className="flex gap-4">
+      <div className="flex  sm:gap-4">
         <div className="font-extralight">Terms & Conditions</div>
         <div className="font-extralight">Privacy Policy</div>
       </div>

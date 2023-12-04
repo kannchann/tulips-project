@@ -36,7 +36,7 @@ const Brand = () => {
             <div className="md:py-2 opacity-30">04</div>
             <div className="md:py-2 opacity-30">05</div>
             <div className="md:py-2 opacity-30">
-            <Image src={RightArrow} width={8} height={4} className="rotate-90"></Image>
+            <Image src={RightArrow} width={8} height={4} className="rotate-90 "></Image>
             </div>
 
           </div>
