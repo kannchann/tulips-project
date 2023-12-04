@@ -16,7 +16,7 @@ const Reviews = () => {
       <div className="text-center text-cobalt-blue text-xs md:text-xl italic px-4 lg:px-72">
         <div >
           “The{" "}
-          <span className="underline text-xs font-bold lg:leading-[1.3]">
+          <span className="underline  font-bold lg:leading-[1.3]">
             BRANDSCAN Alpha
           </span>{" "}
           has provided great images for the past six years. One shot
