@@ -2,8 +2,8 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className="bg-[#F5ECE5] text-sm">
-    <div className="flex justify-center gap-3 p-48">
+    <div className="bg-[#F5ECE5] text-cobalt-blue text-xs md:text-sm">
+    <div className="flex justify-center gap-3 p-4 md:p-24 lg:p-48">
       <div className="flex basis-3/4 flex-col gap-8">
         {/* <!-- logo --> */}
         <div>
@@ -126,6 +126,7 @@ const Footer = () => {
         <div>
           <span className="font-light">Why Brand Is Different</span>
         </div>
+  
         <div className="font-extralight">Face Driven Dentistry</div>
         <div className="font-extralight">Smile Nation</div>
         <div className="font-extralight">Clinical Cases</div>
@@ -135,11 +136,14 @@ const Footer = () => {
         <div className="font-extralight">Ethical Management</div>
         <div className="font-extralight">Research & Development</div>
         <div className="font-extralight">Product Quality & Safety</div>
+          
+
+      
       </div>
     </div>
    
     {/* <!-- section. 2 --> */}
-    <div className="flex justify-around pb-6">
+    <div className="flex justify-between pb-6 px-4 md:px-24 lg:px-48  text-cobalt-blue text-xs md:text-sm">
       <div>
         <span className="font-extralight"> © Brand Co., Ltd. 2023, All rights reserved. </span>
       </div>

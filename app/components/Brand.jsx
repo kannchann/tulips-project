@@ -5,25 +5,37 @@ import BrandFace from "../../public/BrandFace.svg";
 import Button from "./Button";
 const Brand = () => {
   return (
-    <div className="flex  min-h-screen">
-      <div className="w-1/2 flex px-24">
-        <div className="flex flex-col jus gap-12 justify-center">
-          <Image src={BrandFace} width={306} height={38}></Image>
-          <div className="text-cobalt-blue leading-6">
+    <div className="flex max-h-screen w-full  ">
+      <div className="w-1/2  flex items-center justify-between pl-4 md:pl-16 lg:pl-24 pr-2 md:pr-4 py-4 " >
+        <div className=" flex flex-col  gap-4 md:gap-6 lg:gap-12 " >
+       
+            <Image src={BrandFace} width={306} height={38}></Image>
+          
+
+          <div className="text-cobalt-blue text-xs md:text-sm md:leading-6">
             It is one of the fastest and most user-friendly facial scanners on
             the market today, engineered specifically for the dental industry.
             Its virtual patient technology and modern design will provide your
-            patients with a personalized and high-tech dental experience. 
+            patients with a personalized and high-tech dental experience.
           </div>
           <div>
-          <Button /> 
+            <Button />
           </div>
-         
         </div>
-        <div></div>
+
+          <div className=" text-[#3C4765] opacity-30 hidden sm:block sm:text-xs flex-col ">
+            <div className="md:py-2 text-black opacity-100">01</div>
+            <div className="md:py-2">02</div>
+            <div className="md:py-2">03</div>
+            <div className="md:py-2">04</div>
+            <div className="md:py-2">05</div>
+          </div>
+    
       </div>
-      <div className="w-1/2 bg-[#E5EAF5] flex items-center justify-center ">
-        <Image src={BrandImage} width={333} height={548}></Image>
+      <div className="w-1/2 bg-[#E5EAF5] flex items-center justify-center  ">
+        <div className="py-16 px-16">
+          <Image src={BrandImage} width={533} height={748}></Image>
+        </div>
       </div>
     </div>
   );
